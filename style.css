@@ -10,14 +10,6 @@
     padding: 5px 0px;
 }
 
-
-@media only screen and (max-width: 970px) {
-    .myInfo{
-      flex-direction: column;
-      text-align: center;
-    }
-}
-
 section.myInfo{
     display: flex;
     border-radius: 1.5rem;
@@ -29,9 +21,23 @@ section.myInfo{
     margin: 2px auto;
 }
 
+@media only screen and (max-width: 970px) {
+    .myInfo{
+      flex-direction: column;
+      text-align: center;
+    }
+}
+
 .myInfo h1{
     margin: 10px 0px;
     font-size: 3rem;
+}
+
+@media only screen and (max-width: 970px) {
+    .myInfo h1{
+      text-align: center;
+      width: 80%;
+    }
 }
 
 .linkContact h2{
