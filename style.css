@@ -38,6 +38,16 @@ section.myInfo{
       text-align: center;
       font-size: 2rem;
       width: 80%;
+      margin: auto;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .myInfo h1{
+      text-align: center;
+      font-size: 1.5rem;
+      width: 100%;
+      margin: auto;
     }
 }
 
