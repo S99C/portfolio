@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    background-color: rgb(77, 61, 94);
+    padding: 5px 0px;
+}
+
+
+@media only screen and (max-width: 970px) {
+    .myInfo{
+      flex-direction: column;
+      text-align: center;
+    }
+}
+
+section.myInfo{
+    display: flex;
+    border-radius: 1.5rem;
+    justify-content: space-evenly;
+    border: 2px solid black;
+    background: #1f2833;
+    color: oldlace;
+    width: 95%;
+    margin: 2px auto;
+}
+
+.myInfo h1{
+    margin: 10px 0px;
+    font-size: 3rem;
+}
+
+.linkContact h2{
+    font-family: cursive;
+    margin-bottom: 0.5rem;
+}
+
+.linkContact{
+    margin: 1rem 0rem;
+}
+
+.profilePic img{
+    display: block;
+    margin-top: 0.25rem;
+    height: 200px;
+    border-style: double;
+    border-radius: 10rem;
+}
+
+@media only screen and (max-width: 970px) {
+    .profilePic{
+      margin: auto;
+    }
+}
+
+.contact img{
+    height: 40px;
+    border-radius: 5rem;
+    margin-right: 0.5rem;
+}
+
+.contact img:hover{
+    transform: scale(1.25);
+    transition: 500ms;
+}
+
+section.myRepertoire{
+    display: flex;
+    border-radius: 1.5rem;
+    font-size: 1.25rem;
+    color: whitesmoke;
+    flex-direction: column;
+    text-align: center;
+    background: url("bg.jpg");
+    background-size: cover;
+    background-position: bottom;
+    border: 2px solid black;
+    width: 95%;
+    margin: 2px auto;
+}
+
+.skills h3{
+    margin-top: 1rem;
+    font-family: cursive;
+}
+
+.skills p{
+    width: 70%;
+    margin: 20px auto;
+    font-family: monospace;
+    font-weight: lighter;
+}
+
+@media only screen and (max-width: 970px) {
+    .skills p{
+      width: 90%;
+    }
+}
+
+
+.myRepertoire h4{
+    font-family: monospace;
+}
+
+.myRepertoire div img{
+    height: 7rem;
+    border: 1px solid black;
+    border-radius: 5rem;
+    margin: 30px 2rem;
+}
+
+.myRepertoire div img:hover{
+    transform: scale(1.4);
+    transition: 500ms;
+}
+
+div.skilpic{
+    width: 70%;
+    margin: auto;
+}
+
+footer{
+    color: whitesmoke;
+    text-align: center;
+}
